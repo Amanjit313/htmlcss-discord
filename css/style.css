@@ -79,13 +79,13 @@ header{
 }
 /* CSS Header - Comand List - Accedi*/
 #accedi{
-  background-color: white;
   right: 0;
 }
 
 #accedi li a{
   text-decoration: none;
   color: black;
+  background-color: white;
 }
 
 #accedi ul{
@@ -94,9 +94,6 @@ header{
 
 #accedi ul li a:hover{
   color: white;
-}
-
-#accedi:hover{
   background-color: lightgray;
 }
 
@@ -130,7 +127,7 @@ header{
 
 #j-text p{
   font-size: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 /* CSS Header - Jumbotron - Bottoni*/
@@ -140,38 +137,32 @@ header{
 
 #d-open ul li{
   display: inline-block;
-  margin: 10px;
-  background-color: white;
 }
 
 #d-open li a{
   text-decoration: none;
   color: black;
+  background-color: white;
+  margin: 10px;
 }
 
 #d-open ul{
   list-style: none;
 }
 
-#d-open ul li.open-b2{
-  background-color: rgba(0, 0, 0, .75);
-  color: white;
-}
-
 #d-open ul li.open-b2 a{
+  background-color: rgba(0, 0, 0, .75);
   color: white;
 }
 
 #d-open ul li a:hover{
   color: white;
-}
-
-#d-open ul li:hover{
   background-color: lightgray;
 }
 
 #d-open ul li.open-b2 a:hover{
   color: black;
+  background-color: lightgray;
 }
 
 .fa-solid{
@@ -196,12 +187,10 @@ main > section{
 .container{
   width: 70%;
   height: 60vh;
-  background-color: peachpuff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  border: 5px solid black; /* DA CANCELLARE USATO SOLO PER AGEVOLAZIONE */
 }
 
 .container > div{
@@ -210,45 +199,53 @@ main > section{
 }
 
 div .c-img{
-  width: 60%;
-  background-color: tomato;
+  width: 65%;
 }
 
 div .c-text{
-  width: 40%;
-  background-color: violet;
+  width: 35%;
+}
+
+div .c-text h2{
+  font-size: 4rem;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+div .c-text p{
+  width: 90%;
+  font-size: 25px;
 }
 
 /* CSS Main - Box 1 */
 #box-1{
-  background-color: blueviolet;
+  background-color: white;
 }
 
 /* CSS Main - Box 2 */
 #box-2{
-  background-color: plum;
+  background-color: lightgray;
 }
 
 /* CSS Main - Box 3 */
 #box-3{
-  background-color: purple;
+  background-color: white;
 }
 
 /* CSS Main - Box 4 */
 #box-4{
-  background-color: fuchsia;
-  height: 110vh;
+  background-color: lightgray;
+  height: 150vh;
   position: relative;
 }
 
 #big-container{
   width: 70%;
-  height: 90vh;
-  background-color: crimson;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+  text-align: center;
 }
 
 #big-container > div{
@@ -256,20 +253,47 @@ div .c-text{
 }
 
 #bc-text{
-  height: 20vh;
-  background-color: chocolate;
   margin-bottom: 2vh;
 }
 
-#bc-img{
-  height: 47vh;
-  background-color:brown;
-  margin-bottom: 2vh;
+#bc-text h2{
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+#bc-text p{
+  font-size: 23px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#bc-img img{
+  width: 1300px;
 }
 
 #bc-button{
-  height: 19vh;
-  background-color: orangered;
+  height: 20vh;
+}
+
+#bc-button h4{
+  font-size: 2rem;
+  margin-bottom: 85px;
+}
+
+#bc-bt ul li a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #8EA1E1;
+}
+
+#bc-bt ul{
+  list-style: none;
+}
+
+#bc-bt ul li a:hover{
+  color: #8EA1E1;
+  background-color: white;
 }
 /* 
   /CSS Main 
