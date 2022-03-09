@@ -116,9 +116,8 @@ header{
 #j-text{
   width: 45%;
   height: 40vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 12vh;
+  margin-left: 54vh;
   position: absolute;
   text-align: center;
   color: white;
@@ -292,8 +291,9 @@ footer{
   width: 70%;
   height: 60vh;
   background-color: cadetblue;
-  margin-top: 12vh;
-  margin-left: 52vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
 }
 
