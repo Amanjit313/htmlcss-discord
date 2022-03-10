@@ -80,6 +80,7 @@ header{
 /* CSS Header - Comand List - Accedi*/
 #accedi{
   right: 0;
+  padding-top: 7px;
 }
 
 #accedi li a{
@@ -103,21 +104,20 @@ header{
 #jumbotron{
   width: 100%;
   height: 60vh;
-  position: relative;
   background-image: url("../img/jumbo.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 120px;
 }
 
 /* CSS Header - Jumbotron - Text*/
 #j-text{
   width: 45%;
   height: 40vh;
-  margin-top: 12vh;
-  margin-left: 54vh;
-  position: absolute;
   text-align: center;
   color: white;
+  margin: 0 auto;
+  position: relative;
 }
 
 #j-text h1{
@@ -181,16 +181,14 @@ main > section{
   width: 100%;
   height: 80vh;
   background-color: grey;
-  position: relative;
 }
 
 .container{
   width: 70%;
   height: 60vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 130px;
 }
 
 .container > div{
@@ -236,16 +234,14 @@ div .c-text p{
 #box-4{
   background-color: lightgray;
   height: 150vh;
-  position: relative;
 }
 
 #big-container{
   width: 70%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
   text-align: center;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 130px;
 }
 
 #big-container > div{
@@ -308,16 +304,14 @@ footer{
   width: 100%;
   height: 75vh;
   background-color: #23272A;
-  position: relative;
 }
 
 #f-container{
   width: 70%;
   height: 60vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  padding-top: 150px;
+  margin: 0 auto;
+  position: relative;
 }
 
 footer > section{
